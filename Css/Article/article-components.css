@@ -1,0 +1,22 @@
+/* 
+  Contenedor individual de cada elemento desplegable (FAQ).
+  Define apariencia visual, separación entre ítems
+  y aplica variables dinámicas según el tema activo.
+*/
+.faq__item {
+  background: var(--faq);
+  border: 1px solid var(--somb);
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px var(--somb);
+  transition: 0.3s; /* Suaviza cambios visuales como hover */
+}
+
+/* 
+  Estado interactivo al pasar el cursor.
+  Cambia el fondo para reforzar feedback visual.
+*/
+.faq__item:hover {
+  background-color: var(--hover);
+}

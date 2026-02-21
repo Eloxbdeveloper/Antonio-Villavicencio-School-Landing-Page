@@ -1,0 +1,95 @@
+/* 
+  Sistema de temas basado en custom properties.
+  Cada clase redefine variables globales para modificar colores,
+  gradientes, sombras y estados interactivos sin alterar la estructura.
+*/
+
+
+/* 
+  Tema claro – gama púrpura.
+  Fondo luminoso, alto contraste en texto oscuro y acentos violetas.
+*/
+.theme__lightpurple {
+  --body: #e6ffe9;
+  --colornav: #8c4fe8;
+  --asides: #ffffffee;
+  --fondo1: #ffffff;
+  --fondo2: #d7ffdf;
+  --main: #ffffff;
+  --text: #111;
+  --textw: white;
+  --faq: #ffffffcc;
+  --somb: #bcbcbc;
+  --grad: linear-gradient(transparent, #8c4fe8);
+  --grad2: linear-gradient(#8c4fe8, transparent);
+  --textsh: #eee;
+  --colorbtn: linear-gradient(135deg, #a678f2, #8c4fe8);
+  --hover: #f2f0ff;
+}
+
+
+/* 
+  Tema oscuro – gama púrpura.
+  Base neutra oscura con acentos violetas para mantener identidad visual.
+*/
+.theme__darkpurple{
+  --body: #121212;
+  --colornav: #8c4fe8;
+  --fondo1: #1f1f1f;
+  --fondo2: #2a2a2a;
+  --main: #1f1f1f;
+  --text: #eeeeee;
+  --textw: white;
+  --faq: #1e1e1ecc;
+  --somb: #00000066;
+  --grad: linear-gradient(transparent, #8c4fe8);
+  --grad2: linear-gradient(#8c4fe8, #1f1f1f);
+  --textsh: #000000;
+  --colorbtn: linear-gradient(135deg, #a678f2, #8c4fe8);
+  --hover: #2a2a2a;
+}
+
+
+/* 
+  Tema claro – gama azul.
+  Apariencia fresca con predominancia de azules suaves y fondos blancos.
+*/
+.theme__lightblue{
+  --body: #e6f7ff;
+  --colornav: #4488eedd;
+  --asides: #ffffffee;
+  --fondo1: #ffffff;
+  --fondo2: #d0f0ff;
+  --main: #ffffff;
+  --text: #111;
+  --textw: white;
+  --faq: #ffffffcc;
+  --somb: #b0c4de;
+  --grad: linear-gradient(transparent, #4488ee);
+  --grad2: linear-gradient(#4488ee, transparent);
+  --textsh: #eeeeee;
+  --colorbtn: linear-gradient(135deg, #66aaff, #4488ee);
+  --hover: #f2f2ff;
+}
+
+
+/* 
+  Tema oscuro – gama azul.
+  Paleta inspirada en interfaces tipo developer con contraste frío.
+*/
+.theme__darkblue{
+  --body: #0d1117;
+  --colornav: #4488ee;
+  --fondo1: #161b22;
+  --fondo2: #1f2a38;
+  --main: #1a1a1a;
+  --text: #e6f1ff;
+  --textw: white;
+  --faq: #1e1e1ecc;
+  --somb: #00000066;
+  --grad: linear-gradient(transparent, #4488ee);
+  --grad2: linear-gradient(#4488ee, #1f1f1f);
+  --textsh: #000000;
+  --colorbtn: linear-gradient(135deg, #66aaff, #4488ee);
+  --hover: #2e3f40;
+}

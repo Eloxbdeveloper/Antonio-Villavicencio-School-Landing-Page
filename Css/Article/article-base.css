@@ -1,0 +1,44 @@
+/* 
+  Configuración global del documento.
+  Define tipografía base, elimina márgenes por defecto
+  y aplica el fondo dinámico según el tema activo.
+*/
+body { 
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-y: hidden; 
+  font-family: 'Poppins', sans-serif;
+  background: var(--body);
+}
+
+/* 
+  Normalización tipográfica para navegación,
+  encabezados y botones para mantener coherencia visual.
+*/
+nav a, h1, h2, h3, h4, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 
+  Estilos base del contenido textual.
+  Controla legibilidad, comportamiento de quiebre de texto
+  y color dinámico según variables de tema.
+*/
+p, ul, td, summary {
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  padding: 5px;
+}
+
+/* 
+  Ajuste de alineación para listas.
+  Se mantiene tal como está definido en el proyecto.
+*/
+ul, li {
+  text-align: flex-start;
+}

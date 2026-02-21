@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- 
+  Documento principal de la landing page del proyecto “Energías Renovables”.
+  Esta página centraliza la información introductoria, hábitos sostenibles
+  y acceso a proyectos ambientales desarrollados por los estudiantes.
+-->
+
+<html lang="es">
+<head>
+  <!-- Codificación estándar para soportar caracteres especiales -->
+  <meta charset="UTF-8">
+
+  <!-- Permite que el diseño sea responsive en dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título descriptivo para navegador y motores de búsqueda -->
+  <title>Energías Renovables - Colegio Antonio Villavicencio</title>
+
+  <!-- 
+    Sistema de estilos modular dividido por responsabilidad:
+    base.css → reglas globales.
+    layout.css → estructura macro.
+    components.css → componentes reutilizables.
+    home.css → estilos específicos de esta página.
+  -->
+  <link rel="stylesheet" href="Css/Main/base.css">
+  <link rel="stylesheet" href="Css/Main/layout.css">
+  <link rel="stylesheet" href="Css/Main/components.css">
+  <link rel="stylesheet" href="Css/Main/pages/home.css">
+
+  <!-- Ícono de la pestaña -->
+  <link rel="icon" href="./Multimedia/icon.png" type="image/png">
+
+  <!-- Fuente principal del proyecto -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- 
+  El body inicia con el tema claro por defecto.
+  El sistema de cambio de tema funciona mediante clases aplicadas dinámicamente.
+-->
+<body class="theme__light" id="inicio">
+
+  <!-- Navegación principal con enlaces internos -->
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__nav-left">
+        <ul class="header__menu" id="menu">
+          <li class="header__item"><a class="header__button" href="#inicio">Inicio</a></li>
+          <li class="header__item"><a class="header__button" href="#habitos">Hábitos</a></li>
+          <li class="header__item"><a class="header__button" href="#portafile">Proyectos</a></li>
+          <!-- Botón que activa la alternancia de temas -->
+          <li class="header__item"><a class="header__button header__button--theme" href="#">Tema</a></li>
+        </ul>
+      </div>
+
+      <!-- Logo institucional con enlace externo -->
+      <a href="https://cavied.com/">
+        <img src="./Multimedia/escudo.png" alt="Escudo institucional" class="header__logo">
+      </a>
+    </nav>
+  </header>
+
+  <!-- Sección introductoria principal -->
+  <main class="hero">
+    <div class="hero__container">
+      <img src="./Multimedia/panelsolar.png" alt="Panel solar representando energía renovable" class="hero__image">
+
+      <div class="hero__content">
+        <h2>¿Qué son las Energías Renovables?</h2>
+        <p class="hero__text">
+          Las energías renovables son fuentes de energía obtenidas de recursos naturales que se regeneran de manera continua, como la radiación solar, el viento, el agua, el calor del interior de la Tierra y la biomasa. A diferencia de los combustibles fósiles, estas energías son limpias, sostenibles y contribuyen a reducir las emisiones de gases de efecto invernadero, ayudando a mitigar el cambio climático.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sección educativa sobre hábitos responsables -->
+  <section id="habitos" class="habits">
+    <div class="habits__grid">
+
+      <div class="habit-card">
+        <div class="habit-card__image">
+          <img src="./Multimedia/cerrarllave.jpg" alt="Cerrar la llave del agua">
+        </div>
+        <div class="habit-card__content">
+          <span class="habit-card__title">Cerrar la llave del agua</span>
+          <p class="habit-card__description">
+            Cerrar el grifo ayuda a ahorrar agua, proteger el ambiente y reducir gastos innecesarios.
+          </p>
+        </div>
+      </div>
+
+      <div class="habit-card">
+        <div class="habit-card__image">
+          <img src="./Multimedia/apagarluz.jpg" alt="Apagar aparatos electrónicos">
+        </div>
+        <div class="habit-card__content">
+          <span class="habit-card__title">Apagar electrónicos no usados</span>
+          <p class="habit-card__description">
+            Reduce el consumo eléctrico y la contaminación, prolongando la vida útil de los dispositivos.
+          </p>
+        </div>
+      </div>
+
+      <div class="habit-card">
+        <div class="habit-card__image">
+          <img src="./Multimedia/envases.jpg" alt="Envases reutilizables">
+        </div>
+        <div class="habit-card__content">
+          <span class="habit-card__title">Usar envases rellenables</span>
+          <p class="habit-card__description">
+            Reduce el plástico, cuida el medioambiente y fomenta el consumo responsable.
+          </p>
+        </div>
+      </div>
+
+      <div class="habit-card">
+        <div class="habit-card__image">
+          <img src="./Multimedia/residuos.jpg" alt="Reducción de residuos">
+        </div>
+        <div class="habit-card__content">
+          <span class="habit-card__title">Reducir residuos generados</span>
+          <p class="habit-card__description">
+            Ayuda a evitar la contaminación, ahorrar recursos y disminuir desechos.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sección de proyectos ambientales -->
+  <section id="portafile" class="portfolio">
+    <h2 class="portfolio__title">Proyectos Ambientales</h2>
+
+    <div class="portfolio__grid">
+
+      <div class="portfolio__item portfolio__item--1">
+        <h2 class="portfolio__project">
+          <a href="periodico.pdf" target="_blank">PERIÓDICO ESCOLAR</a>
+        </h2>
+      </div>
+
+      <div class="portfolio__item portfolio__item--2">
+        <h2 class="portfolio__project">
+          <a href="ecoAprendizaje.html">EDUCACION AMBIENTAL: ECO-APRENDIZAJE</a>
+        </h2>
+      </div>
+
+      <div class="portfolio__item portfolio__item--4">
+        <h2 class="portfolio__project">
+          <a href="ecoBotellas.html">DESARROLLO SOSTENIBLE: ECO-BOTELLAS</a>
+        </h2>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de página con enlaces institucionales y redes sociales -->
+  <footer class="footer">
+
+    <ul class="footer__social">
+      <li class="footer__social-item">
+        <a href="https://www.youtube.com/@colegioantoniovillavicenci4833/featured"
+           class="footer__social-link" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </li>
+
+      <li class="footer__social-item">
+        <a href="https://www.instagram.com/iedantoniovillavicencio/"
+           class="footer__social-link" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+
+      <li class="footer__social-item">
+        <a href="https://www.facebook.com/Villantino/?locale=es_LA"
+           class="footer__social-link" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="footer__menu">
+      <li class="footer__menu-item"><a href="#inicio" class="footer__menu-link">Inicio</a></li>
+      <li class="footer__menu-item"><a href="#habitos" class="footer__menu-link">Hábitos</a></li>
+      <li class="footer__menu-item"><a href="#portafile" class="footer__menu-link">Proyectos</a></li>
+      <li class="footer__menu-item">
+        <a href="https://www.redacademica.edu.co/colegios/colegio-antonio-villavicencio-ied"
+           class="footer__menu-link" target="_blank">Sobre Nosotros</a>
+      </li>
+    </ul>
+
+    <p class="footer__copy">@1101 JM - Emanuel Orjuela Barbosa</p>
+  </footer>
+
+</body>
+
+<!-- Librería externa de iconos con soporte modular y fallback -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Punto de entrada del sistema JavaScript modular -->
+<script type="module" src="Js/Modules/main.js"></script>
+
+</html>

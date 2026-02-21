@@ -1,0 +1,85 @@
+/*
+  Configuración estructural del documento raíz.
+  Se habilita desplazamiento suave para navegación interna
+  mediante anclas y se previene el desbordamiento horizontal,
+  evitando barras laterales no deseadas por elementos flex o grid.
+*/
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*
+  Estilos base aplicados al body.
+  Se eliminan márgenes por defecto del navegador,
+  se establece tipografía principal del proyecto y
+  se define el color de texto y fondo mediante variables
+  para permitir cambio dinámico según el tema activo.
+*/
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: #2e3d2f;
+  background-color: var(--fondo1);
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+/*
+  Tema claro principal.
+  Define la paleta cromática general en tonos verdes suaves,
+  incluyendo fondos, textos, botones, sombras y gradientes.
+  Todas las propiedades se gestionan con custom properties
+  para centralizar el control visual del sistema.
+*/
+.theme__light {
+  --colornav: linear-gradient(120deg, #b6e6bd, #d7fbe888);
+  --fondo1: #f5fbef;
+  --fondo2: #e1f3e6;
+  --main: #b6e6cdbb;
+  --container: #ffffff;
+  --letters: #2a5934;
+  --text: #324b38;
+  --textw: #ffffff;
+  --card: #ffffff;
+  --foot: #cee5d0;
+  --btn:#324b38;
+  --somb: rgba(0, 0, 0, 0.4);
+  --colorbtn: linear-gradient(135deg, #a1e8af, #5edc96);
+}
+
+/*
+  Tema oscuro principal.
+  Mantiene coherencia cromática con el tema claro,
+  pero adapta contrastes y fondos para entornos de baja luz.
+  Se ajustan sombras, fondos y textos para preservar legibilidad.
+*/
+.theme__dark{
+  --colornav: linear-gradient(120deg, #354f52, #52796f88);
+  --fondo1: #2f3e46;
+  --fondo2: #354f52;
+  --container: #3e5e60;
+  --letters: #c2f0c2;
+  --main: #354f52aa;
+  --text: #f1f1f1;
+  --textw: #f9f9f9;
+  --btn:#144408;
+  --card: #213c3f;
+  --foot: #1d2b2b;
+  --somb: rgba(255, 255, 255, 0.05);
+  --colorbtn: linear-gradient(135deg, #b7efcd, #60c896);
+}
+
+/*
+  Estilo tipográfico global para encabezados h2.
+  Define jerarquía visual consistente mediante tamaño,
+  peso de fuente y alineación central.
+  El color se vincula a variable temática para
+  adaptarse automáticamente al modo claro u oscuro.
+*/
+h2 {
+  color: var(--letters);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: center;
+}

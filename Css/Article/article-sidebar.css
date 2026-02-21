@@ -1,0 +1,96 @@
+/* 
+  Sidebar lateral del layout.
+  Funciona como contenedor de navegación y bloques auxiliares.
+  Mantiene altura fija relativa al viewport y scroll interno controlado.
+*/
+.sidebar {
+  background-color: var(--fondo2);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px var(--somb);
+  overflow-y: auto;
+  height: 74vh;
+}
+
+/* 
+  Variante primaria.
+  Se utiliza cuando no se desea mostrar visualmente la barra de desplazamiento.
+*/
+.sidebar--primary {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* 
+  Título principal de la sidebar.
+  Centrado y alineado con la tipografía global del sistema.
+*/
+.sidebar__title {
+  text-align: center;
+  font-size: 18px;
+  color: var(--text);
+}
+
+/* 
+  Lista de navegación interna.
+  Se eliminan estilos por defecto para control total del layout.
+*/
+.sidebar__nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+/* 
+  Enlaces internos de navegación.
+  Configurados como bloque para ampliar el área clickeable.
+*/
+.sidebar__link {
+  text-decoration: none;
+  color: var(--colornav);
+  font-size: 17px;
+  display: block;
+  padding: 7px 0;
+  transition: 0.2s ease;
+}
+
+/* 
+  Estado hover del enlace.
+  Refuerza jerarquía visual mediante peso tipográfico y borde lateral.
+*/
+.sidebar__link:hover {
+  font-weight: bold;
+  color: var(--colornav);
+  border-left: 3px solid var(--colornav);
+  padding-left: 8px;
+}
+
+/* 
+  Contenedor interno para distribución vertical de elementos secundarios.
+*/
+.sidebar-secondary {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+/* 
+  Variante secundaria.
+  Ajusta ancho y estructura cuando se usa como bloque complementario.
+*/
+.sidebar--secondary {
+  width: 70%;
+  display: flex;
+}
+
+/* 
+  Título en variante secundaria.
+  Centrado automáticamente dentro del contenedor flex.
+*/
+.sidebar--secondary h2{
+  margin: auto; 
+  font-weight: 600; 
+  font-size: 18px;
+  text-align: center;
+  color: var(--text);
+}

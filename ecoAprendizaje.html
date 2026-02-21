@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- 
+  Página de artículo correspondiente al proyecto “EcoAprendizaje”.
+  Hace parte de la arquitectura multipágina del sitio.
+  Utiliza el mismo sistema estructural y modular que las demás páginas de artículo.
+-->
+
+<html lang="es">
+<head>
+  <!-- Título general del documento -->
+  <title>Proyecto Ambiental</title>
+
+  <!-- Codificación estándar UTF-8 -->
+  <meta charset="utf-8">
+
+  <!-- Configuración responsive para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    Sistema de estilos modular.
+    Cada archivo cumple una responsabilidad específica dentro de la arquitectura CSS:
+    - article-themes: variables y gestión de temas
+    - article-base: reglas globales
+    - article-header: estilos del encabezado
+    - article-layout: estructura general
+    - article-sidebar: barras laterales
+    - article-components: elementos internos
+    - article-responsive: adaptación a pantallas pequeñas
+  -->
+  <link rel="stylesheet" href="Css/Article/article-themes.css">
+  <link rel="stylesheet" href="Css/Article/article-base.css">
+  <link rel="stylesheet" href="Css/Article/article-header.css">
+  <link rel="stylesheet" href="Css/Article/article-layout.css">
+  <link rel="stylesheet" href="Css/Article/article-sidebar.css">
+  <link rel="stylesheet" href="Css/Article/article-components.css">
+  <link rel="stylesheet" href="Css/Article/article-responsive.css">
+
+  <!-- Favicon institucional -->
+  <link rel="icon" type="image/png" href="./Multimedia/icon.png">
+
+  <!-- Fuente tipográfica principal -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- 
+  Clase page define el contexto estructural.
+  theme__lightblue establece el esquema visual inicial del artículo.
+-->
+<body class="page theme__lightblue">
+    
+<nav class="header">
+  <!-- Enlace de retorno a la sección portafolio de la landing -->
+  <div class="header__left">
+    <a href="index.html#portafile" class="header__button">Volver al Inicio</a>
+  </div>
+
+  <!-- Identificador visual del proyecto actual -->
+  <div class="header__center header__brand">
+    EcoAprendizaje
+  </div>
+
+  <!-- Controles de interacción: cambio de tema y logo institucional -->
+  <div class="header__right">
+    <button class="header__button header__button--toggle header__button--theme">Tema</button>
+    <img src="./Multimedia/escudo.png" class="header__logo" alt="Escudo del colegio">
+  </div>
+</nav>
+
+<!-- Contenedor principal del layout con tres zonas: sidebar primaria, contenido y sidebar secundaria -->
+<div class="layout">
+      
+  <aside class="sidebar sidebar--primary">
+    <!-- Navegación interna por anclas -->
+    <h2 class="sidebar__title">MENÚ DE SECCIONES</h2>
+    <nav class="sidebar__nav">
+      <ul class="sidebar__list">
+        <li class="sidebar__item"><a href="#contexto" class="sidebar__link">Realidad ambiental</a></li>
+        <li class="sidebar__item"><a href="#origen" class="sidebar__link">Cómo surgió EcoAprendizaje</a></li>
+        <li class="sidebar__item"><a href="#propuesta" class="sidebar__link">Qué propone el proyecto</a></li>
+        <li class="sidebar__item"><a href="#valor-educativo" class="sidebar__link">Aprendizaje y reflexión</a></li>
+        <li class="sidebar__item"><a href="#testimonios" class="sidebar__link">Reacciones estudiantiles</a></li>
+        <li class="sidebar__item"><a href="#actividades" class="sidebar__link">Campañas y jornadas</a></li>
+        <li class="sidebar__item"><a href="#cronograma" class="sidebar__link">Etapas del plan</a></li>
+        <li class="sidebar__item"><a href="#investigacion" class="sidebar__link">Datos y consulta</a></li>
+        <li class="sidebar__item"><a href="#impacto" class="sidebar__link">Cambios en la comunidad</a></li>
+        <li class="sidebar__item"><a href="#dificultades" class="sidebar__link">Retos y aprendizajes</a></li>
+        <li class="sidebar__item"><a href="#conclusion" class="sidebar__link">Reflexión final</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content content--article">
+    
+    <!-- Contenido narrativo principal -->
+    <article class="article">
+      <h1 class="article__title">EcoAprendizaje: transformar con reciclaje y conciencia</h1>
+
+      <h2 id="contexto" class="article__subtitle">Realidad ambiental del colegio</h2>
+      <p class="article__text">
+        El mal uso de los residuos dentro y fuera de la institución ha generado un problema constante en el entorno cercano al Colegio Antonio Villavicencio. Áreas como el humedal Jaboque y el parque del sector muestran signos de contaminación debido a la falta de clasificación adecuada de la basura.
+      </p>
+
+      <h2 id="origen" class="article__subtitle">Cómo surgió EcoAprendizaje</h2>
+      <p class="article__text">
+        El proyecto nació tras identificar que muchos estudiantes no diferenciaban entre los tipos de residuos ni sabían usar correctamente las canecas. A partir de esa necesidad, un grupo decidió crear un plan de acción educativa enfocado en formar conciencia ambiental real en la comunidad escolar.
+      </p>
+
+      <h2 id="propuesta" class="article__subtitle">Qué propone nuestro proyecto</h2>
+      <p class="article__text">
+        EcoAprendizaje busca fomentar la correcta clasificación de residuos usando canecas diferenciadas (blanca, verde y negra), además de desarrollar campañas visuales, jornadas de recolección y actividades pedagógicas que motiven un cambio de hábitos dentro y fuera del aula.
+      </p>
+
+      <h2 id="valor-educativo" class="article__subtitle">Aprendizaje y reflexión</h2>
+      <p class="article__text">
+        A través de talleres, charlas y ejercicios prácticos, los estudiantes no solo aprenden qué hacer con sus residuos, sino también por qué es importante. Se promueve un aprendizaje significativo que conecta la teoría con la acción diaria y el entorno más cercano.
+      </p>
+
+      <h2 id="testimonios" class="article__subtitle">Reacciones estudiantiles</h2>
+      <p class="article__text">
+        La respuesta del estudiantado fue variada. Algunos grupos mostraron gran interés, realizaron preguntas y participaron activamente; otros no prestaron atención. Esto permitió evaluar los alcances del proyecto y adaptar estrategias según los contextos.
+      </p>
+
+      <h2 id="actividades" class="article__subtitle">Campañas y jornadas</h2>
+      <p class="article__text">
+        Se desarrollaron actividades como pegatinas ecológicas, limpieza de zonas verdes, charlas educativas por salones, y publicación de contenido ambiental en redes sociales. Todas ellas buscaron involucrar a más personas de la comunidad educativa.
+      </p>
+
+      <h2 id="cronograma" class="article__subtitle">Etapas del plan</h2>
+      <p class="article__text">
+        La planeación incluyó charlas bimestrales, campañas de limpieza programadas, producción de material gráfico, y seguimiento con evidencias visuales. La participación se reguló con inscripciones previas y permisos de acudientes.
+      </p>
+
+      <h2 id="investigacion" class="article__subtitle">Datos y consulta</h2>
+      <p class="article__text">
+        Se consultaron fuentes oficiales y académicas sobre clasificación de residuos y educación ambiental. Se integraron conceptos clave como la importancia del reciclaje, el compostaje, y la educación como motor de cambio ecológico.
+      </p>
+
+      <h2 id="impacto" class="article__subtitle">Cambios en la comunidad</h2>
+      <p class="article__text">
+        Padres, docentes, personal de apoyo y estudiantes se involucraron con el proyecto. Gracias a esto, se mejoró la limpieza de zonas específicas, y aumentó el número de estudiantes que clasifican sus residuos adecuadamente.
+      </p>
+
+      <h2 id="dificultades" class="article__subtitle">Retos y aprendizajes</h2>
+      <p class="article__text">
+        La ejecución enfrentó barreras como la falta de interés en algunos cursos, problemas para programar salidas y falta de insumos. Sin embargo, estas dificultades fortalecieron el compromiso del equipo organizador y su capacidad de adaptación.
+      </p>
+
+      <p class="article__text">
+        El trabajo constante permitió que el proyecto avanzara y lograra reconocimiento dentro de la comunidad educativa, dejando aprendizajes útiles para futuras iniciativas ambientales.
+      </p>
+
+      <h2 id="conclusion" class="article__subtitle">Reflexión final</h2>
+      <p class="article__text">
+        EcoAprendizaje muestra que educar desde lo ambiental es una forma efectiva de generar transformación. Con estrategias accesibles, compromiso y creatividad, es posible sembrar una cultura de respeto por el entorno desde las aulas.
+      </p>
+    </article>
+
+    <!-- Sección informativa desplegable -->
+    <section class="faq">
+      <h2 class="faq__title">Dudas frecuentes / Más información</h2>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Cómo usar correctamente las canecas?</summary>
+        <p class="faq__text">
+          Blanca: papel, cartón, plásticos y latas.<br>
+          Verde: restos orgánicos como frutas, hojas, cáscaras.<br>
+          Negra: residuos no reciclables como servilletas, comida o pañales.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Qué actividades destacaron más?</summary>
+        <p class="faq__text">
+          Las charlas por cursos, jornadas de limpieza, diseño de material visual y creación de contenido digital sobre educación ambiental fueron claves para el éxito del proyecto.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Qué materiales de protección se usaron?</summary>
+        <p class="faq__text">
+          Guantes, tapabocas, gorros, gafas, botas y batas fueron usados en las actividades de limpieza para garantizar seguridad y prevención.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Qué es educación ambiental?</summary>
+        <p class="faq__text">
+          Es un proceso formativo que promueve el conocimiento, la reflexión y la acción responsable frente a los problemas del entorno natural y social.
+        </p>
+      </details>
+    </section>
+
+  </main>
+
+  <!-- Sidebar secundaria con elemento conceptual -->
+  <div class="sidebar-secondary">
+    <aside class="sidebar sidebar--secondary">
+      <h2 class="sidebar__quote">"Separar para transformar"</h2>
+    </aside>
+  </div>
+
+</div>
+
+<!-- Punto de entrada del sistema modular JavaScript -->
+<script type="module" src="Js/Modules/main.js"></script>
+
+</html>

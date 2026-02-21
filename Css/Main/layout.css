@@ -1,0 +1,181 @@
+/*
+  Header principal.
+  Barra superior fija con comportamiento sticky y jerarquía alta
+  en el contexto de apilamiento.
+*/
+.header {
+  background: var(--colornav);
+  padding: 12px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+
+/*
+  Contenedor interno del nav.
+  Distribución horizontal con alineación central y separación equilibrada.
+*/
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text);
+  flex-wrap: wrap;
+  padding: 0 25px;
+  z-index: 1000;
+}
+
+
+/*
+  Menú de navegación.
+  Lista horizontal sin estilos por defecto.
+*/
+.header__menu {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+  Logo del header.
+  Tamaño controlado y leve animación en interacción.
+*/
+.header__logo {
+  width: 70px;
+  transition: transform 0.2s;
+}
+
+
+/*
+  Hover del logo.
+  Escala ligera para reforzar interactividad.
+*/
+.header__logo:hover {
+  transform: scale(1.05);
+}
+
+
+/*
+  Botón principal del header.
+  Estilo prominente con gradiente y bordes redondeados.
+*/
+.header__button {
+  background: var(--colorbtn);
+  border: none;
+  border-radius: 30px;
+  color: var(--btn);
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 128, 0, 0.2);
+  text-decoration: none;
+}
+
+
+/*
+  Estado hover del botón.
+  Incremento de escala para destacar acción primaria.
+*/
+.header__button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+/*
+  Footer principal.
+  Sección inferior con alineación centrada y espaciado amplio.
+*/
+.footer {
+  background-color: var(--foot);
+  color: var(--text);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+/*
+  Lista de redes sociales.
+  Distribución horizontal centrada con separación uniforme.
+*/
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+
+/*
+  Enlaces sociales.
+  Tamaño aumentado y transición suave de opacidad.
+*/
+.footer__social-link {
+  font-size: 1.8rem;
+  color: var(--text);
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+
+/*
+  Hover en redes.
+  Incremento de escala y opacidad completa.
+*/
+.footer__social-link:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+
+/*
+  Menú secundario del footer.
+  Flexible y adaptable en múltiples líneas.
+*/
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+
+/*
+  Enlaces del menú inferior.
+  Apariencia discreta con subrayado en interacción.
+*/
+.footer__menu-link {
+  font-size: 1rem;
+  color: var(--text);
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+
+/*
+  Hover en enlaces del footer.
+  Refuerza visibilidad y accesibilidad.
+*/
+.footer__menu-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+/*
+  Texto de derechos o información legal.
+  Tamaño reducido y separación superior moderada.
+*/
+.footer__copy {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

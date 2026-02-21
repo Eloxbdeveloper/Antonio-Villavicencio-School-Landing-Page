@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- 
+  Página de artículo del proyecto ambiental “EcoBotellas”.
+  Forma parte del sistema multipágina del sitio institucional.
+  Utiliza una arquitectura CSS modular independiente de la landing principal.
+-->
+
+<html lang="es">
+<head>
+  <!-- Título específico del artículo -->
+  <title>Proyecto Ambiental</title>
+
+  <!-- Codificación estándar -->
+  <meta charset="utf-8">
+
+  <!-- Configuración responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    Sistema de estilos modular para artículos.
+    Separado por responsabilidad:
+    - article-themes → sistema de variables y temas
+    - article-base → reglas globales
+    - article-header → encabezado
+    - article-layout → estructura principal
+    - article-sidebar → barras laterales
+    - article-components → componentes internos
+    - article-responsive → adaptaciones móviles
+  -->
+  <link rel="stylesheet" href="Css/Article/article-themes.css">
+  <link rel="stylesheet" href="Css/Article/article-base.css">
+  <link rel="stylesheet" href="Css/Article/article-header.css">
+  <link rel="stylesheet" href="Css/Article/article-layout.css">
+  <link rel="stylesheet" href="Css/Article/article-sidebar.css">
+  <link rel="stylesheet" href="Css/Article/article-components.css">
+  <link rel="stylesheet" href="Css/Article/article-responsive.css">
+
+  <!-- Favicon institucional -->
+  <link rel="icon" type="image/png" href="./Multimedia/icon.png">
+
+  <!-- Fuente principal del proyecto -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- 
+  Clase page define el contexto estructural del layout.
+  theme__lightpurple establece el esquema visual inicial.
+-->
+<body class="page theme__lightpurple">
+
+<nav class="header">
+  <!-- Botón de retorno a la landing principal -->
+  <div class="header__left">
+    <a href="index.html#portafile" class="header__button">Volver al Inicio</a>
+  </div>
+
+  <!-- Título del artículo centrado -->
+  <div class="header__center header__brand">
+    EcoBotellas
+  </div>
+
+  <!-- Acciones de usuario: cambio de tema y logo institucional -->
+  <div class="header__right">
+    <button class="header__button header__button--toggle header__button--theme">Tema</button>
+    <img src="./Multimedia/escudo.png" class="header__logo" alt="Escudo del colegio">
+  </div>
+</nav>
+
+<!-- Layout principal con sidebar izquierda, contenido central y sidebar secundaria -->
+<div class="layout">
+
+  <!-- Barra lateral primaria con navegación interna -->
+  <aside class="sidebar sidebar--primary">
+    <h2 class="sidebar__title">TABLA DE CONTENIDOS</h2>
+    <nav class="sidebar__nav">
+      <ul class="sidebar__list">
+        <li class="sidebar__item"><a href="#contexto" class="sidebar__link">Contexto ambiental</a></li>
+        <li class="sidebar__item"><a href="#origen" class="sidebar__link">Origen del proyecto</a></li>
+        <li class="sidebar__item"><a href="#propuesta" class="sidebar__link">La propuesta</a></li>
+        <li class="sidebar__item"><a href="#valor-educativo" class="sidebar__link">Valor educativo</a></li>
+        <li class="sidebar__item"><a href="#testimonios" class="sidebar__link">Testimonios</a></li>
+        <li class="sidebar__item"><a href="#actividades" class="sidebar__link">Actividades y participación</a></li>
+        <li class="sidebar__item"><a href="#cronograma" class="sidebar__link">Cronograma</a></li>
+        <li class="sidebar__item"><a href="#investigacion" class="sidebar__link">Investigación adicional</a></li>
+        <li class="sidebar__item"><a href="#impacto" class="sidebar__link">Impacto y comunidad</a></li>
+        <li class="sidebar__item"><a href="#dificultades" class="sidebar__link">Dificultades</a></li>
+        <li class="sidebar__item"><a href="#conclusion" class="sidebar__link">Conclusión</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Contenido principal del artículo -->
+  <main class="content content--article">
+
+    <article class="article">
+      <h1 class="article__title">Eco-botellas: cuando la educación se convierte en acción ambiental</h1>
+
+      <h2 id="contexto" class="article__subtitle">Contexto ambiental</h2>
+      <p class="article__text">
+        Bogotá es una ciudad que respira a través de sus humedales. O al menos, lo intenta. Con más de 15 ecosistemas de este tipo distribuidos a lo largo de su geografía, los humedales son vitales no solo para el equilibrio ecológico, sino también para la calidad de vida de sus habitantes. Sin embargo, durante años, estos espacios han sido invadidos por escombros, basura, construcciones ilegales y la indiferencia de quienes, con cada botella arrojada, deterioran un poco más el tejido natural que sostiene la ciudad.
+      </p>
+
+      <h2 id="origen" class="article__subtitle">Origen del proyecto</h2>
+      <p class="article__text">
+        Fue justo en medio de este panorama desolador que un grupo de estudiantes del Colegio Antonio Villavicencio decidió hacer algo más que quejarse. Observando las condiciones del humedal Jaboque —uno de los más afectados por la acumulación de residuos— nació la iniciativa “Eco-botellas”: un proyecto que busca transformar el reciclaje en una herramienta pedagógica y de impacto ambiental real.
+      </p>
+
+      <h2 id="propuesta" class="article__subtitle">La propuesta</h2>
+      <p class="article__text">
+        La propuesta es sencilla pero poderosa: utilizar botellas plásticas comunes como recipientes de materiales no reciclables —como envolturas, empaques o bolsas— compactándolos en su interior hasta formar eco-ladrillos. Esta técnica, conocida en varios países, permite reutilizar residuos que normalmente terminarían en vertederos o cuerpos de agua, dándoles una segunda vida útil como elementos de construcción.
+      </p>
+
+      <h2 id="valor-educativo" class="article__subtitle">Valor educativo</h2>
+      <p class="article__text">
+        Pero más allá del componente práctico, este proyecto tiene un valor educativo profundo. La escuela deja de ser un espacio abstracto para convertirse en un escenario de cambio. Los estudiantes no solo aprenden sobre reciclaje: reflexionan sobre sus hábitos de consumo, cuestionan la responsabilidad de los adultos y se involucran en una causa que los conecta con su entorno inmediato.
+      </p>
+
+      <h2 id="testimonios" class="article__subtitle">Testimonios</h2>
+      <p class="article__text">
+        “Al principio no sabíamos qué tanto podríamos lograr, pero conforme empezamos a ver que nuestras botellas se llenaban y que otros cursos se unían, entendimos que estábamos haciendo algo más grande”, comenta Valentina, una de las estudiantes líderes del proyecto.
+      </p>
+
+      <h2 id="actividades" class="article__subtitle">Actividades y participación</h2>
+      <p class="article__text">
+        A lo largo de varias semanas, los estudiantes diseñaron carteleras, organizaron charlas y promovieron concursos por cursos. La idea era no solo recolectar, sino entender. El plástico no desaparece: cambia de forma, y su impacto permanece si no se le da un manejo responsable. Las eco-botellas, entonces, se convierten en una metáfora de esa transformación posible.
+      </p>
+
+      <h2 id="cronograma" class="article__subtitle">Cronograma</h2>
+      <p class="article__text">
+        El cronograma fue riguroso. Desde febrero hasta mayo, se hicieron campañas internas, se obtuvieron permisos de rectoría para almacenar las botellas, y se contactaron fundaciones como Ecoworks, que reciben este tipo de material para construir bancas y parques infantiles. También se enviaron recordatorios por grupos de WhatsApp, y se logró la recolección de más de 30 botellas funcionales, listas para ser entregadas.
+      </p>
+
+      <h2 id="investigacion" class="article__subtitle">Investigación adicional</h2>
+      <p class="article__text">
+        En paralelo, el equipo investigó sobre los orígenes de los eco-ladrillos. Supieron que esta práctica nació en Guatemala en 2003, impulsada por la activista Susanna Heisse. Desde entonces, se ha replicado en países como Sudáfrica, Filipinas, y ahora, en una pequeña esquina de Bogotá, también es una realidad.
+      </p>
+
+      <h2 id="impacto" class="article__subtitle">Impacto y comunidad</h2>
+      <p class="article__text">
+        Uno de los aspectos más poderosos del proyecto es su capacidad de contagiar conciencia. “Yo llegaba a la casa y le explicaba a mi mamá qué era una eco-botella. Incluso mis vecinos comenzaron a separar los empaques porque vieron que era por una buena causa”, relata Andrés, otro de los participantes.
+      </p>
+
+      <h2 id="dificultades" class="article__subtitle">Dificultades</h2>
+      <p class="article__text">
+        La dimensión comunitaria se volvió esencial. Lo que empezó como una actividad escolar se transformó en un ejercicio de ciudadanía activa. Padres, docentes y personal de servicios generales se involucraron en distintos niveles, mostrando que los problemas ambientales requieren respuestas colectivas.
+      </p>
+
+      <p class="article__text">
+        Y no todo fue perfecto. Hubo dificultades para conseguir llaves del espacio de almacenamiento, falta de tiempo en algunos cursos, y momentos de desánimo. Pero cada obstáculo sirvió para reafirmar que la educación ambiental no es un tema menor, y que necesita del esfuerzo constante para convertirse en parte del día a día.
+      </p>
+
+      <h2 id="conclusion" class="article__subtitle">Conclusión</h2>
+      <p class="article__text">
+        En tiempos donde los titulares hablan de crisis climática, incendios forestales y pérdida de biodiversidad, este tipo de iniciativas ofrecen un rayo de esperanza. No solucionan todo, pero sí demuestran que educar para transformar es posible. Y que una botella, por insignificante que parezca, puede contener más que residuos: puede contener futuro.
+      </p>
+    </article>
+
+    <!-- Sección informativa desplegable -->
+    <section class="faq">
+      <h2 class="faq__title">Preguntas frecuentes / Información adicional</h2>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Qué son las eco-botellas?</summary>
+        <p class="faq__text">
+          Son botellas PET rellenas de residuos plásticos no reciclables que se utilizan como ladrillos ecológicos en construcciones sostenibles.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿Dónde puedo donar eco-botellas?</summary>
+        <p class="faq__text">
+          <b>World Business Center:</b> Av. Ciudad de Cali #51-66<br>
+          <b>MegaPort:</b> Cra 85D #46A-96<br>
+          También puedes consultar con fundaciones como <b>Ecoworks</b> para programar recolecciones.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__summary">¿A qué entidades puedo reportar daños ambientales?</summary>
+        <p class="faq__text">
+          <b>ANLA:</b> <a href="https://www.anla.gov.co/" target="_blank">www.anla.gov.co</a><br>
+          Teléfonos: 3778912, 3778812, 01 8000 919 301<br>
+          Las denuncias pueden incluir fotos, videos y ubicación precisa para ser efectivas.
+        </p>
+      </details>
+    </section>
+
+  </main>
+
+  <!-- Sidebar secundaria decorativa / reflexiva -->
+  <div class="sidebar-secondary">
+    <aside class="sidebar sidebar--secondary">
+      <h2 class="sidebar__quote">"Construyendo futuro con cada botella"</h2>
+    </aside>
+  </div>
+
+</div>
+
+<!-- Punto de entrada del sistema modular JavaScript -->
+<script type="module" src="Js/Modules/main.js"></script>
+
+</html>
