@@ -37,15 +37,21 @@ La landing está organizada en tres secciones estratégicas que cumplen funcione
 
 La primera sección presenta una tarjeta visual introductoria donde se explica qué son las energías renovables y cuál es su impacto ambiental y social. Esta parte establece el marco conceptual desde el cual se desarrollan los proyectos.
 
-![Intro Energías Renovables](./gifs/intro-energias.gif)
+<p align="center">
+  <img src="./Multimedia/README/tarjeta.png" width="700">
+</p>
 
 La segunda sección contiene cuatro tarjetas informativas que desarrollan hábitos concretos orientados a la sostenibilidad. El contenido se enfoca en acciones prácticas que pueden implementarse en la vida diaria para reducir el impacto ambiental.
 
-![Hábitos sostenibles](./gifs/habitos.gif)
+<p align="center">
+  <img src="./Multimedia/README/habitos.png" width="700">
+</p>
 
 La tercera sección está compuesta por un collage interactivo. Cada elemento visual funciona como acceso directo a uno de los proyectos. Al interactuar con los distintos componentes, el usuario es redirigido al artículo correspondiente, integrando diseño visual e interactividad controlada con JavaScript.
 
-![Collage interactivo](./gifs/collage-interactivo.gif)
+<p align="center">
+  <img src="./Multimedia/README/proyectos.png" width="700">
+</p>
 
 ---
 
@@ -102,6 +108,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/emxneldev  
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
