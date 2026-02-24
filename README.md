@@ -115,7 +115,7 @@ Diseño para escritorio:
 
 Diseño para tablet:
 <p align="center">
-  <img src="./Multimedia/README/tablet.gif" width="650">
+  <img src="./Multimedia/README/tablet.gif" width="600">
 </p>
 
 Diseño para celular:
@@ -140,6 +140,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/qubik_timer 
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
