@@ -23,15 +23,14 @@ El tono comunicativo es comprensible y amigable, manteniendo claridad conceptual
 
 El proyecto fue desarrollado utilizando HTML5 para la estructura semántica, CSS3 para el diseño visual y JavaScript puro para la interactividad. No se emplearon frameworks externos, con el propósito de demostrar dominio directo del DOM y control total del comportamiento de la interfaz.
 
-La organización del código sigue una lógica modular y aplica la metodología BEM (Block Element Modifier), lo que permite mantener una nomenclatura consistente, evitar colisiones de estilos y facilitar el mantenimiento futuro. Esta arquitectura favorece la escalabilidad y la claridad estructural del sistema.
-
 <p align="center">
   <img src="./Multimedia/README/html.png" width="250">
   <img src="./Multimedia/README/css.png" width="178" >
   <img src="./Multimedia/README/javascript.png" width="235">
 </p>
 
-Metodologia Block Element Modifier:
+La organización del código sigue una lógica modular y aplica la metodología BEM (Block Element Modifier), lo que permite mantener una nomenclatura consistente, evitar colisiones de estilos y facilitar el mantenimiento futuro. Esta arquitectura favorece la escalabilidad y la claridad estructural del sistema.
+
 <p align="center">
   <img src="./Multimedia/README/bem.png" width="750">
 </p>
@@ -141,6 +140,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/qubik_timer 
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
