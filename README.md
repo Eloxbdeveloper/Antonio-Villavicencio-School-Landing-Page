@@ -1,7 +1,7 @@
 # Plataforma Web de Proyectos Ambientales 2025  
 Colegio Antonio Villavicencio
 
-Deploy del proyecto: 
+Deploy del proyecto: https://antoniovillavicencio.netlify.app/
 <p align="center">
   <img src="./Multimedia/escudo.png" width="300">
 </p>
@@ -141,6 +141,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/qubik_timer 
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
