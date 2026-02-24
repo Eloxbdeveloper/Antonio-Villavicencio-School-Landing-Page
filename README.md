@@ -80,7 +80,7 @@ Proyecto EcoBotellas:
 La interactividad del sitio está gestionada completamente con JavaScript puro. El collage principal permite redirección dinámica a cada proyecto, mientras que la tabla de contenidos de los artículos facilita la navegación interna mediante anclas estructuradas.
 
 <p align="center">
-  <img src="./Multimedia/README/interactividad.gif" width="700">
+  <img src="./Multimedia/README/Interactividad.gif" width="700">
 </p>
 
 El sistema incorpora un modo oscuro que permite alternar entre tema claro y tema oscuro, mejorando la accesibilidad visual y la experiencia del usuario en distintos entornos de iluminación. Esta funcionalidad está implementada mediante manipulación dinámica de clases y variables CSS.
@@ -134,6 +134,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/qubik_timer 
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
