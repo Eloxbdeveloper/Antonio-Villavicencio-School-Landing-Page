@@ -1,10 +1,8 @@
 # Plataforma Web de Proyectos Ambientales 2025  
 Colegio Antonio Villavicencio  
-
 <p align="center">
-  <img src="./Multimedia/escudo.png" width="400">
+  <img src="./Multimedia/escudo.png" width="300">
 </p>
-
 Aplicación web desarrollada para visibilizar los proyectos ambientales liderados por los estudiantes de grado 11 jornada mañana del Colegio Antonio Villavicencio durante el año 2025. El sitio funciona como una vitrina digital estructurada que documenta procesos, evidencia impacto y promueve conciencia sobre energías renovables y sostenibilidad ambiental desde un entorno escolar.
 
 ---
@@ -98,4 +96,5 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/emxneldev  
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
