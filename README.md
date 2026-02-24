@@ -65,12 +65,12 @@ Al final del contenido principal se incorpora una sección de preguntas frecuent
 
 Proyecto EcoAprendizaje: 
 <p align="center">
-  <img src="./Multimedia/README/ecoaprendizaje.gif" width="700">
+  <img src="./Multimedia/README/ecoaprendizaje.gif" width="750">
 </p>
 
 Proyecto EcoBotellas: 
 <p align="center">
-  <img src="./Multimedia/README/ecobotellas.gif" width="700">
+  <img src="./Multimedia/README/ecobotellas.gif" width="750">
 </p>
 
 ---
@@ -80,13 +80,13 @@ Proyecto EcoBotellas:
 La interactividad del sitio está gestionada completamente con JavaScript puro. El collage principal permite redirección dinámica a cada proyecto, mientras que la tabla de contenidos de los artículos facilita la navegación interna mediante anclas estructuradas.
 
 <p align="center">
-  <img src="./Multimedia/README/Interactividad.gif" width="700">
+  <img src="./Multimedia/README/interactividad.gif" width="750">
 </p>
 
 El sistema incorpora un modo oscuro que permite alternar entre tema claro y tema oscuro, mejorando la accesibilidad visual y la experiencia del usuario en distintos entornos de iluminación. Esta funcionalidad está implementada mediante manipulación dinámica de clases y variables CSS.
 
 <p align="center">
-  <img src="./Multimedia/README/Tema.gif" width="700">
+  <img src="./Multimedia/README/Tema.gif" width="750">
 </p>
 
 Asimismo, la plataforma incluye diferentes paletas de colores configuradas a través de variables CSS, lo que permite modificar el esquema visual sin alterar la estructura base del diseño. Esta decisión técnica facilita personalización y escalabilidad del sistema visual.
@@ -104,17 +104,17 @@ El collage interactivo también se adapta dinámicamente, reorganizando sus elem
 
 Diseño para escritorio:
 <p align="center">
-  <img src="./Multimedia/README/escritorio.gif" width="700">
+  <img src="./Multimedia/README/escritorio.gif" width="750">
 </p>
 
 Diseño para tablet:
 <p align="center">
-  <img src="./Multimedia/README/tablet.gif" width="700">
+  <img src="./Multimedia/README/tablet.gif" width="750">
 </p>
 
 Diseño para celular:
 <p align="center">
-  <img src="./Multimedia/README/celular.gif" width="700">
+  <img src="./Multimedia/README/celular.gif" width="500">
 </p>
 
 ---
@@ -134,6 +134,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/qubik_timer 
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
