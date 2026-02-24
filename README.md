@@ -25,8 +25,8 @@ La organización del código sigue una lógica modular y aplica la metodología 
 
 <p align="center">
   <img src="./Multimedia/README/html.png" width="250">
-  <img src="./Multimedia/README/css.png" width="177" >
-  <img src="./Multimedia/README/javascript.png" width="230">
+  <img src="./Multimedia/README/css.png" width="178" >
+  <img src="./Multimedia/README/javascript.png" width="235">
 </p>
 
 ---
@@ -102,6 +102,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/emxneldev  
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
