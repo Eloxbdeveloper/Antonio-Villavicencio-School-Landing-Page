@@ -59,13 +59,19 @@ La tercera sección está compuesta por un collage interactivo. Cada elemento vi
 
 Cada proyecto está construido bajo un formato tipo artículo utilizando el modelo de diseño conocido como “Santo Grial”, estructurado en tres columnas. La columna izquierda incorpora una tabla de contenidos que facilita la navegación interna en artículos extensos. La columna central concentra el desarrollo completo del contenido, mientras que la columna derecha incluye una frase conceptual relacionada con el proyecto, reforzando su identidad temática.
 
-![Diseño Santo Grial](./gifs/articulo-santo-grial.gif)
-
 El contenido de cada proyecto sigue una secuencia narrativa que aborda el contexto ambiental, el origen de la iniciativa, la propuesta planteada, su valor educativo, testimonios, actividades desarrolladas, cronograma, investigación adicional, impacto en la comunidad, dificultades enfrentadas y una conclusión reflexiva.
 
 Al final del contenido principal se incorpora una sección de preguntas frecuentes (FAQ) que amplía información y resuelve dudas específicas.
 
-![FAQ Proyecto](./gifs/faq.gif)
+Proyecto EcoAprendizaje: 
+<p align="center">
+  <img src="./Multimedia/README/ecoaprendizaje.gif" width="700">
+</p>
+
+Proyecto EcoBotellas: 
+<p align="center">
+  <img src="./Multimedia/README/ecobotellas.png" width="700">
+</p>
 
 ---
 
@@ -108,6 +114,7 @@ Correo: emanuelorjuelabarbosa12@gmail.com
 Instagram: https://www.instagram.com/emxneldev  
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
