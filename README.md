@@ -139,11 +139,12 @@ Emanuel Orjuela Barbosa
 
 Correo: emanuelorjuelabarbosa12@gmail.com  
 
-Instagram: https://www.instagram.com/qubik_timer 
+Instagram: https://www.instagram.com/emx.dev
 
 Github: https://github.com/Emanuelorjuela
 
 Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
+
 
 
 
