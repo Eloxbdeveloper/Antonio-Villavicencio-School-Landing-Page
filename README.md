@@ -1,27 +1,27 @@
-# Plataforma Web de Proyectos Ambientales 2025  
-***Colegio Antonio Villavicencio***
+# Environmental Projects Web Platform 2025  
+***Antonio Villavicencio School***
 
-Deploy del proyecto: https://antoniovillavicencio.netlify.app/
+Project deploy: https://antoniovillavicencio.netlify.app/
 <p align="center">
   <img src="./Multimedia/escudo.png" width="300">
 </p>
-Aplicación web desarrollada para visibilizar los proyectos ambientales liderados por los estudiantes de grado 11 jornada mañana del Colegio Antonio Villavicencio durante el año 2025. El sitio funciona como una vitrina digital estructurada que documenta procesos, evidencia impacto y promueve conciencia sobre energías renovables y sostenibilidad ambiental desde un entorno escolar.
+Web application developed to showcase the environmental projects led by the 11th grade morning shift students of Antonio Villavicencio School during the year 2025. The site functions as a structured digital showcase that documents processes, demonstrates impact, and promotes awareness about renewable energy and environmental sustainability from a school environment.
 
 ---
 
-## 1. Descripción general del proyecto  
+## 1. General project description  
 
-Esta landing page surge como una iniciativa académica orientada a centralizar y proyectar públicamente las iniciativas ambientales desarrolladas durante el año lectivo 2025. La intención principal fue crear un espacio web profesional, claro y accesible que permitiera mostrar el trabajo realizado por los estudiantes, integrando contenido pedagógico con una estructura técnica sólida.
+This landing page emerged as an academic initiative aimed at centralizing and publicly presenting the environmental initiatives developed during the 2025 academic year. The main intention was to create a professional, clear, and accessible web space that could present the work carried out by students while integrating educational content with a solid technical structure.
 
-El eje temático del sitio es la educación sobre energías renovables y la promoción de hábitos sostenibles que pueden implementarse tanto en el hogar como en el entorno escolar. A partir de esta base conceptual, la plataforma conecta al usuario con proyectos específicos como EcoAprendizaje, Eco-botellas y el periódico escolar ambiental, articulando cada uno dentro de una narrativa estructurada y coherente.
+The thematic focus of the site is education about renewable energy and the promotion of sustainable habits that can be implemented both at home and in the school environment. From this conceptual base, the platform connects users with specific projects such as EcoAprendizaje, Eco-botellas, and the school environmental newspaper, integrating each one into a structured and coherent narrative.
 
-El tono comunicativo es comprensible y amigable, manteniendo claridad conceptual y coherencia formal en la presentación de la información.
+The communication tone is understandable and approachable, maintaining conceptual clarity and formal consistency in the presentation of information.
 
 ---
 
-## 2. Enfoque técnico y tecnologías utilizadas  
+## 2. Technical approach and technologies used  
 
-El proyecto fue desarrollado utilizando HTML5 para la estructura semántica, CSS3 para el diseño visual y JavaScript puro para la interactividad. No se emplearon frameworks externos, con el propósito de demostrar dominio directo del DOM y control total del comportamiento de la interfaz.
+The project was developed using HTML5 for semantic structure, CSS3 for visual design, and pure JavaScript for interactivity. No external frameworks were used, with the objective of demonstrating direct mastery of the DOM and full control over interface behavior.
 
 <p align="center">
   <img src="./Multimedia/README/html.png" width="250">
@@ -29,7 +29,7 @@ El proyecto fue desarrollado utilizando HTML5 para la estructura semántica, CSS
   <img src="./Multimedia/README/javascript.png" width="235">
 </p>
 
-La organización del código sigue una lógica modular y aplica la metodología BEM (Block Element Modifier), lo que permite mantener una nomenclatura consistente, evitar colisiones de estilos y facilitar el mantenimiento futuro. Esta arquitectura favorece la escalabilidad y la claridad estructural del sistema.
+The code organization follows a modular logic and applies the BEM (Block Element Modifier) methodology, which allows consistent naming conventions, prevents style collisions, and facilitates future maintenance. This architecture promotes scalability and structural clarity within the system.
 
 <p align="center">
   <img src="./Multimedia/README/bem.png" width="750">
@@ -37,23 +37,23 @@ La organización del código sigue una lógica modular y aplica la metodología 
 
 ---
 
-## 3. Estructura de la página principal  
+## 3. Structure of the main page  
 
-La landing está organizada en tres secciones estratégicas que cumplen funciones diferenciadas dentro de la experiencia del usuario.
+The landing page is organized into three strategic sections that fulfill different roles within the user experience.
 
-La primera sección presenta una tarjeta visual introductoria donde se explica qué son las energías renovables y cuál es su impacto ambiental y social. Esta parte establece el marco conceptual desde el cual se desarrollan los proyectos.
+The first section presents an introductory visual card explaining what renewable energy is and its environmental and social impact. This section establishes the conceptual framework from which the projects are developed.
 
 <p align="center">
   <img src="./Multimedia/README/tarjeta.png" width="750">
 </p>
 
-La segunda sección contiene cuatro tarjetas informativas que desarrollan hábitos concretos orientados a la sostenibilidad. El contenido se enfoca en acciones prácticas que pueden implementarse en la vida diaria para reducir el impacto ambiental.
+The second section contains four informational cards that present concrete habits oriented toward sustainability. The content focuses on practical actions that can be implemented in everyday life to reduce environmental impact.
 
 <p align="center">
   <img src="./Multimedia/README/habitos.png" width="750">
 </p>
 
-La tercera sección está compuesta por un collage interactivo. Cada elemento visual funciona como acceso directo a uno de los proyectos. Al interactuar con los distintos componentes, el usuario es redirigido al artículo correspondiente, integrando diseño visual e interactividad controlada con JavaScript.
+The third section is composed of an interactive collage. Each visual element functions as a direct access point to one of the projects. By interacting with the different components, the user is redirected to the corresponding article, integrating visual design and controlled interactivity through JavaScript.
 
 <p align="center">
   <img src="./Multimedia/README/proyectos.png" width="750">
@@ -61,120 +61,85 @@ La tercera sección está compuesta por un collage interactivo. Cada elemento vi
 
 ---
 
-## 4. Estructura interna de los proyectos  
+## 4. Internal structure of the projects  
 
-Cada proyecto está construido bajo un formato tipo artículo utilizando el modelo de diseño conocido como “Santo Grial”, estructurado en tres columnas. La columna izquierda incorpora una tabla de contenidos que facilita la navegación interna en artículos extensos. La columna central concentra el desarrollo completo del contenido, mientras que la columna derecha incluye una frase conceptual relacionada con el proyecto, reforzando su identidad temática.
+Each project is built under an article-style format using the design model known as the “Holy Grail”, structured in three columns. The left column includes a table of contents that facilitates internal navigation within long articles. The central column contains the full development of the content, while the right column includes a conceptual phrase related to the project, reinforcing its thematic identity.
 
-El contenido de cada proyecto sigue una secuencia narrativa que aborda el contexto ambiental, el origen de la iniciativa, la propuesta planteada, su valor educativo, testimonios, actividades desarrolladas, cronograma, investigación adicional, impacto en la comunidad, dificultades enfrentadas y una conclusión reflexiva.
+The content of each project follows a narrative sequence addressing environmental context, the origin of the initiative, the proposed solution, its educational value, testimonials, activities carried out, timeline, additional research, community impact, challenges faced, and a reflective conclusion.
 
-Al final del contenido principal se incorpora una sección de preguntas frecuentes (FAQ) que amplía información y resuelve dudas específicas.
+At the end of the main content, a Frequently Asked Questions (FAQ) section is included to expand information and resolve specific doubts.
 
-Proyecto EcoAprendizaje: 
+EcoAprendizaje Project: 
 <p align="center">
   <img src="./Multimedia/README/ecoaprendizaje.gif" width="750">
 </p>
 
-Proyecto EcoBotellas: 
+EcoBotellas Project: 
 <p align="center">
   <img src="./Multimedia/README/ecobotellas.gif" width="750">
 </p>
 
 ---
 
-## 5. Interactividad y sistema visual  
+## 5. Interactivity and visual system  
 
-La interactividad del sitio está gestionada completamente con JavaScript puro. El collage principal permite redirección dinámica a cada proyecto, mientras que la tabla de contenidos de los artículos facilita la navegación interna mediante anclas estructuradas.
+The site's interactivity is managed entirely with pure JavaScript. The main collage enables dynamic redirection to each project, while the table of contents within the articles facilitates internal navigation through structured anchors.
 
 <p align="center">
   <img src="./Multimedia/README/interactividad.gif" width="750">
 </p>
 
-El sistema incorpora un modo oscuro que permite alternar entre tema claro y tema oscuro, mejorando la accesibilidad visual y la experiencia del usuario en distintos entornos de iluminación. Esta funcionalidad está implementada mediante manipulación dinámica de clases y variables CSS.
+The system incorporates a dark mode that allows switching between light and dark themes, improving visual accessibility and the user experience in different lighting environments. This functionality is implemented through dynamic manipulation of classes and CSS variables.
 
 <p align="center">
   <img src="./Multimedia/README/Tema.gif" width="750">
 </p>
 
-Asimismo, la plataforma incluye diferentes paletas de colores configuradas a través de variables CSS, lo que permite modificar el esquema visual sin alterar la estructura base del diseño. Esta decisión técnica facilita personalización y escalabilidad del sistema visual.
-
+Additionally, the platform includes different color palettes configured through CSS variables, allowing the visual scheme to be modified without altering the base design structure. This technical decision facilitates customization and scalability of the visual system.
 
 ---
 
 ## 6. Responsive Design  
 
-El proyecto fue diseñado bajo un enfoque completamente adaptable. Se utilizaron media queries estratégicamente estructuradas para garantizar que la distribución de columnas, tarjetas y elementos interactivos se reorganice correctamente según el tamaño de pantalla.
+The project was designed with a fully adaptive approach. Strategically structured media queries were used to ensure that the layout of columns, cards, and interactive elements reorganizes correctly depending on screen size.
 
-En dispositivos móviles, las tres columnas del diseño tipo “Santo Grial” se transforman en una estructura vertical optimizada para lectura continua. Las tarjetas de la página principal se ajustan automáticamente al ancho disponible, manteniendo jerarquía visual y legibilidad.
+On mobile devices, the three columns of the “Holy Grail” layout transform into a vertical structure optimized for continuous reading. The cards on the main page automatically adjust to the available width while maintaining visual hierarchy and readability.
 
-El collage interactivo también se adapta dinámicamente, reorganizando sus elementos para conservar coherencia estética y funcionalidad táctil en pantallas pequeñas.
+The interactive collage also adapts dynamically, reorganizing its elements to maintain aesthetic coherence and touch functionality on small screens.
 
-Diseño para escritorio:
+Desktop design:
 <p align="center">
   <img src="./Multimedia/README/escritorio.gif" width="750">
 </p>
 
-Diseño para tablet:
+Tablet design:
 <p align="center">
   <img src="./Multimedia/README/tablet.gif" width="600">
 </p>
 
-Diseño para celular:
+Mobile design:
 <p align="center">
   <img src="./Multimedia/README/celular.gif" width="350">
 </p>
 
 ---
 
-## 7. Proyección y escalabilidad  
+## 7. Projection and scalability  
 
-Aunque actualmente el proyecto funciona como una landing informativa con interactividad frontend, su arquitectura modular permite evolucionar hacia una solución más robusta. Podría integrarse un backend para gestión dinámica de contenido, almacenamiento estructurado por año académico o implementación de autenticación institucional.
+Although the project currently functions as an informational landing page with frontend interactivity, its modular architecture allows it to evolve into a more robust solution. A backend could be integrated for dynamic content management, structured storage by academic year, or the implementation of institutional authentication.
 
-La estructura actual facilita esta transición sin necesidad de reescritura completa, manteniendo coherencia técnica y organizativa.
+The current structure facilitates this transition without the need for a complete rewrite, maintaining technical and organizational consistency.
 
 ---
 
-## 8. Autor  
+## 8. Author  
 
 Emanuel Orjuela Barbosa  
 
-Correo: emanuelorjuelabarbosa12@gmail.com  
+Email: emanuelorjuelabarbosa12@gmail.com  
 
 Instagram: https://www.instagram.com/emx.dev
 
 Github: https://github.com/Emanuelorjuela
 
-Este proyecto integra educación ambiental, documentación estructurada y desarrollo frontend profesional en una sola plataforma, demostrando cómo una arquitectura web limpia y modular puede apoyar procesos pedagógicos y generar impacto más allá del aula.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This project integrates environmental education, structured documentation, and professional frontend development into a single platform, demonstrating how a clean and modular web architecture can support educational processes and generate impact beyond the classroom.
