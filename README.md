@@ -134,12 +134,12 @@ The current structure facilitates this transition without the need for a complet
 
 ## 8. Author  
 
-Emanuel Orjuela Barbosa  
+**Eloxb Developer**  
 
-Email: emanuelorjuelabarbosa12@gmail.com  
+Email: eloxbdeveloper@gmail.com  
 
-Instagram: https://www.instagram.com/emx.dev
+Instagram: https://www.instagram.com/develoxb
 
-Github: https://github.com/Emanuelorjuela
+Github: https://github.com/Eloxbdeveloper
 
 This project integrates environmental education, structured documentation, and professional frontend development into a single platform, demonstrating how a clean and modular web architecture can support educational processes and generate impact beyond the classroom.
